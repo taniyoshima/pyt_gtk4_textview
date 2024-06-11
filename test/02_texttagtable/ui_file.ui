@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.90.2 -->
+<interface>
+  <!-- interface-name ui_file.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <template class="window" parent="GtkApplicationWindow">
+    <property name="default-height">250</property>
+    <property name="default-width">450</property>
+    <property name="title">pyt_gtk4_textview</property>
+    <child>
+      <object class="GtkTextView" id="textview">
+        <property name="margin-bottom">20</property>
+        <property name="margin-end">20</property>
+        <property name="margin-start">20</property>
+        <property name="margin-top">20</property>
+      </object>
+    </child>
+  </template>
+  <object class="GtkTextTagTable" id="tagtable">
+    <child type="tag">
+      <object class="GtkTextTag">
+        <property name="font">HackGen Console Bold 16</property>
+        <property name="foreground-rgba">rgb(245,194,17)</property>
+        <property name="name">tag1</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag">
+        <property name="name">tag2</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag">
+        <property name="name">tag3</property>
+      </object>
+    </child>
+  </object>
+</interface>
