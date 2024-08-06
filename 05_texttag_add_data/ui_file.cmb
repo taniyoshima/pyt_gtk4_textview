@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.17.3" target_tk="gtk-4.0">
+  <ui>
+	(1,1,"ui_file.ui","ui_file.ui",None,None,None,None,None,None,None)
+  </ui>
+  <object>
+	(1,1,"GtkApplicationWindow","window",None,None,None,None,-1,None,None),
+	(1,2,"GtkTextView","textview",1,None,None,None,-1,None,None)
+  </object>
+  <object_property>
+	(1,1,"GtkWindow","default-height","250",None,None,None,None,None,None,None,None,None),
+	(1,1,"GtkWindow","default-width","450",None,None,None,None,None,None,None,None,None),
+	(1,1,"GtkWindow","title","pyt_gtk4_textview",None,None,None,None,None,None,None,None,None),
+	(1,2,"GtkWidget","margin-bottom","20",None,None,None,None,None,None,None,None,None),
+	(1,2,"GtkWidget","margin-end","20",None,None,None,None,None,None,None,None,None),
+	(1,2,"GtkWidget","margin-start","20",None,None,None,None,None,None,None,None,None),
+	(1,2,"GtkWidget","margin-top","20",None,None,None,None,None,None,None,None,None)
+  </object_property>
+</cambalache-project>
